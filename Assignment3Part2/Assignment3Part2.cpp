@@ -7,9 +7,9 @@ using namespace std;
 int main() {
     queuething queue;
 
-    queue.enqueue(10);
-    queue.enqueue(20);
-    queue.enqueue(30);
+    queue.enqueue(321312);
+    queue.enqueue(429);
+    queue.enqueue(222);
 
     cout << "Front:" << queue.front() << endl;
     cout << "remove" << queue.dequeue() << endl;
